@@ -84,3 +84,19 @@ hr{
 #bmi-result, #situation{
   font-weight: bold;
 }
+
+
+
+/* Colors for "situation" box */
+.red{
+  color: red;
+}
+.orange{
+  color: rgb(189, 123, 2);
+}
+.yellow{
+  color: yellow;
+}
+.green{
+  color: green;
+}

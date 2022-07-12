@@ -11,21 +11,30 @@ function calculate(){
   if (bmi <= 18.5){
     situation.innerText = 'Underweight'
     console.log(`${bmi.toFixed(2)}`)
+    situation.classList.add('orange')
+
   } else if (bmi <= 24.9){
     situation.innerText = 'Normal Range'
     console.log(`${bmi.toFixed(2)}`)
+    situation.classList.add('green')
+
   } else if (bmi <= 29.9){
     situation.innerText = 'Overweight'
     console.log(`${bmi.toFixed(2)}`)
+    situation.classList.add('orange')
+    
   } else if (bmi <= 34.9){
     situation.innerText = 'Obese Class I'
     console.log(`${bmi.toFixed(2)}`)
+    situation.classList.add('red')
   } else if (bmi <= 39.9){
     situation.innerText = 'Obese Class II'
     console.log(`${bmi.toFixed(2)}`)
+    situation.classList.add('red')
   } else if (bmi >= 40){
     situation.innerText = 'Obese Class III'
     console.log(`${bmi.toFixed(2)}`)
+    situation.classList.add('red')
   }
   else{
     alert("Please insert a valid input.")
