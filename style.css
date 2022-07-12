@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Poppins:ital,wght@1,300&display=swap');
+
+
+*{
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: #454B61;
+}
+
+.box
+{
+  margin: auto;
+  width: 400px;
+  background-color: #283561;
+  border-radius: 10px;
+}
+.box h1{
+  text-align: center;
+  padding-top: 20px;
+  color: #A3B2E6;
+}
+
+
+.box-inputs{
+  width: 370px;
+  margin: auto;
+}
+.box-inputs h3{
+  margin: 0;
+  padding: 0;
+  color: #A3B2E6;
+}
+
+input{
+  background-color: #b3aeff;
+  border: none;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+
+.box-button{
+  display: flex;
+  width: inherit;
+  justify-content: flex-end;
+}
+.box-button button{
+  background-color: #A3B2E6;
+  color: #283561;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+
+.box-result{
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 5px;
+}
+.box-result h2{
+  margin: 0;
+  padding: 0px 0px 10px 0px;
+  color: #A3B2E6;
+}
+
+hr{
+  height: 1px;
+  background-color: #b3aeff;
+  border: none;
+}
+
+.result{
+  border-radius: 10px;
+  width: inherit;
+  background-color: #b3aeff;
+}
+
+#bmi-result, #situation{
+  font-weight: bold;
+}
